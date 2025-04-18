@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-// import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+// import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate MERN stack developer with a knack for crafting robust and scalable web applications. With 1.5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "MERN Stack Developer",
     company: "Altsense ",
     description: `Developed and optimized high-performance web applications using the MERN stack, enhancing application response times by 30% and ensuring seamless scalability and maintainability. Collaborated effectively with cross-functional teams to translate complex business requirements into robust technical solutions, resulting in a 20% reduction in development cycles. Architected secure RESTful APIs using Node.js and Express.js, implementing advanced security measures such as JWT, OAuth, and rate limiting to enhance data protection.`,
-    technologies: ["Javascript", "React.js", "Node.js", "Express.js", "MongoDB"],
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
     year: "2023 - 2023",
