@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import React from 'react'
-import logo from '../assets/logo.svg'
+import logo from '../assets/Logo.svg'
 
 const Navbar = () => {
     return (
