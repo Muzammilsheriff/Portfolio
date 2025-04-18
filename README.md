@@ -2,7 +2,7 @@
 
 **A modern, responsive personal portfolio website to showcase my projects, skills, and experience as a developer.**
 
-Live Demo: http://
+Live Demo: [http://](https://portfolio-muzammil-as-projects.vercel.app/ )
 
 🧰 **Tech Stack**:-
 
