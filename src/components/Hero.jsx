@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 // import ProficPic from '../assets/proficpic.jpg'
 import { HERO_CONTENT } from '../constants/index'
+import Resume from '../files/Muzammil_Resume.pdf'
 
 const containerVarients = {
     hidden: { opacity: 0, x: -100 },
@@ -48,7 +49,7 @@ const Hero = () => {
                         <motion.h2 variants={childVarients} className='pb-2 text-4xl tracking-tighter lg:text-8xl'>Muzammil A</motion.h2>
                         <motion.span variants={childVarients} className='bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent text-2xl'>MERN Stack Developer</motion.span>
                         <motion.p variants={childVarients} className='my-2 max-w-lg py-6 text-xl loading-relaxed tracking-tighter'>{HERO_CONTENT}</motion.p>
-                        <motion.a variants={childVarients} href="/resume.pdf"
+                        <motion.a variants={childVarients} href={Resume}
                             target='_blank'
                             rel="noopener noreferrer"
                             download
